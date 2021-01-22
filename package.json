@@ -1,0 +1,25 @@
+{
+
+  "name": "CommandCleaner",
+
+  "description": "",
+
+  "version": "0.0.0",
+
+  "main": "CommandCleaner.js",
+
+  "scripts": {
+
+    "start": "node CommandCleaner.js"
+
+  },
+
+  "dependencies": {
+
+    "discord.js": "12.5.1",
+
+    "request": "2.81.0"
+
+  }
+
+}
