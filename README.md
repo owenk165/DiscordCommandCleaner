@@ -42,7 +42,9 @@ Bot deployed on Heroku will run using 'worker' dyno, it will stay active until a
 
 5. Enter the resource tab, click on the edit buttons, disable 'web' dyno and enable the 'worker' dyno. Or run `heroku ps:scale web=0` and `heroku ps:scale worker=1'`.
 
-6. Save changes.
+6. Enter setting tab, under Config Vars section: Add 'BOT_TOKEN' as key, and the discord bot token as value. Add 'STREAMING_URL' as key, and the link to display as value.
+
+7. Save changes.
 
 <h2>Google Apps Script Scheduler</h2>
 
