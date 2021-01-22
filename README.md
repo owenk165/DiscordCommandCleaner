@@ -28,7 +28,7 @@ Bot deployed on Heroku will run using 'worker' dyno, it will stay active until a
 3. Run the JavaScript file by `node CommandCleaner_Manual.js`.
 
 
-<h2>Cloud hosting</h2>
+<h2>Cloud hosting using Heroku</h2>
 
 1. Register a Heroku account. 
 
