@@ -1,6 +1,6 @@
 # DiscordCommandCleaner
 <h1>Cleans up user command when calling Groovy bot.</h1>
-The bot will clean up any user messages starting with '- ' during active. Useful for cleaning up Groovy -play call.
+The bot will clean up any user messages starting with '-' during active. Useful for cleaning up Groovy -play call. May unintentionally cleans up non-command message too.
 
 Host the bot on your machine manually, or deploy the bot to cloud platform Heroku (Note: Heroku non-creditcard registered version will only allow up to 550 dyno hours/uptime in total. 
 To keep the bot running at all time, do register your account with credit card information to extend the free dyno hours limit to 1100.). 
