@@ -19,6 +19,8 @@ Bot deployed on Heroku will run using 'worker' dyno, it will stay active until a
 
 4. **IMPORTANT: Make modification to the files** by replacing the relevant fields with your token.
 
+5. Set up discord bot at https://discord.com/developers/applications. Retrieve bot token from bot tab. Invite bot to server at OAuth2 tab by defining the scope and permissions, followed with visiting the link generated at the scope division.
+
 <h2>Manual hosting</h2>
 
 1. Open command line by ctrl + R and search for cmd.
