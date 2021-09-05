@@ -19,8 +19,8 @@ client.on('message', function(message,user){
 	// Clean Groovy play and queue command
 	//else if((message.content.substring(0,5).toLowerCase() == '-play') || (message.content.substring(0,3).toLowerCase() == '-p ') || (message.content.substring(0,2).toLowerCase() == '-q')){
 	
-	// Clean all command starting with '-'
-	else if((message.content.substring(0,1).toLowerCase() == '-')){
+	// Clean all command starting with '-' or '!'
+	else if ((message.content.substring(0, 1).toLowerCase() == '-') || (message.content.substring(0, 1).toLowerCase() == '!')){
 		setTimeout(()=>{
 			message.delete();
 			//message.reply("Cleaned").then( botReply => {botReply.delete({ timeout: 2000 })}).catch();
